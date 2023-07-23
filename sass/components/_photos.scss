@@ -1,0 +1,140 @@
+.photos {
+    @include lg {
+        margin-bottom: 60px;
+    }
+
+    & h3 {
+        grid-area: 1 / 1 / 2 / -1;
+
+        color: #9B701C;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+
+        @include xs {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        text-transform: capitalize;
+        margin-bottom: 8px;
+    }
+
+    & h4 {
+        grid-area: 2 / 1 / 3 / -1;
+
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 39.2px;
+
+        @include xs {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        text-transform: uppercase;
+        margin-bottom: 32px;
+    }
+
+    & .photo_gallery {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 141px;
+        grid-gap: 0px;
+        grid-auto-flow: row;
+        grid-auto-rows: 141px;
+        grid-template-areas: "v1 v1 v1 v2 v2 v2 v3 v3 v3 v4 v4 v4"
+            "v5 v5 v5 v6 v6 v6 v7 v7 v7 v8 v8 v8";
+
+        @include lg {
+            display: grid;
+            padding-left: 20px;
+            padding-right: 20px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 141px;
+            grid-gap: 0px;
+            grid-auto-flow: row;
+            grid-auto-rows: 141px;
+            grid-template-areas:
+                "v1 v2 v3"
+                "v4 v5 v6"
+                "v7 v8 v9";
+        }
+
+        @include sm {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 141px;
+            grid-gap: 0px;
+            grid-auto-flow: row;
+            grid-auto-rows: 141px;
+            grid-template-areas:
+                "v1 v2"
+                "v3 v4"
+                "v5 v6"
+                "v7 v8";
+        }
+
+        @include xs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 100px;
+            grid-gap: 0px;
+            grid-auto-flow: row;
+            grid-auto-rows: 100px;
+            grid-template-areas:
+                "v1 v2"
+                "v3 v4"
+                "v5 v6"
+                "v7 v8";
+        }
+
+
+        & .photo {
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &1 {
+                grid-area: v1;
+            }
+
+            &2 {
+                grid-area: v2;
+            }
+
+            &3 {
+                grid-area: v3;
+            }
+
+            &4 {
+                grid-area: v4;
+            }
+
+            &5 {
+                grid-area: v5;
+            }
+
+            &6 {
+                grid-area: v6;
+            }
+
+            &7 {
+                grid-area: v7;
+            }
+
+            &8 {
+                grid-area: v8;
+            }
+        }
+    }
+}

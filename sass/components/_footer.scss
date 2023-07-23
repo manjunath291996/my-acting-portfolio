@@ -1,0 +1,19 @@
+.footer {
+    background-color: #222;
+
+    & .copyright_container {
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+
+        & small {
+            grid-area: 1 / 1 / 2 / -1;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            font-family: Inter;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 1.414;
+        }
+    }
+}

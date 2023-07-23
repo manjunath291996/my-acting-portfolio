@@ -1,0 +1,462 @@
+// h1 default styles
+@mixin h1(
+	$h1_font_family: $h1_font_family,
+	$h1_font_style: $h1_font_style,
+	$h1_font_weight: $h1_font_weight,
+	$h1_font_size: $h1_font_size,
+	$h1_line_height: $h1_line_height,
+	$h1_color: $h1_color
+) {
+	font-family: $h1_font_family;
+	font-style: $h1_font_style;
+	font-weight: $h1_font_weight;
+	font-size: $h1_font_size;
+	line-height: $h1_line_height;
+	color: $h1_color;
+}
+
+// h2 default styles
+@mixin h2(
+	$h2_font_family: $h2_font_family,
+	$h2_font_style: $h2_font_style,
+	$h2_font_weight: $h2_font_weight,
+	$h2_font_size: $h2_font_size,
+	$h2_line_height: $h2_line_height,
+	$h2_color: $h2_color
+) {
+	font-family: $h2_font_family;
+	font-style: $h2_font_style;
+	font-weight: $h2_font_weight;
+	font-size: $h2_font_size;
+	line-height: $h2_line_height;
+	color: $h2_color;
+}
+
+// h3 default styles
+@mixin h3(
+	$h3_font_family: $h3_font_family,
+	$h3_font_style: $h3_font_style,
+	$h3_font_weight: $h3_font_weight,
+	$h3_font_size: $h3_font_size,
+	$h3_line_height: $h3_line_height,
+	$h3_color: $h3_color
+) {
+	font-family: $h3_font_family;
+	font-style: $h3_font_style;
+	font-weight: $h3_font_weight;
+	font-size: $h3_font_size;
+	line-height: $h3_line_height;
+	color: $h3_color;
+}
+
+// h4 default styles
+@mixin h4(
+	$h4_font_family: $h4_font_family,
+	$h4_font_style: $h4_font_style,
+	$h4_font_weight: $h4_font_weight,
+	$h4_font_size: $h4_font_size,
+	$h4_line_height: $h4_line_height,
+	$h4_color: $h4_color
+) {
+	font-family: $h4_font_family;
+	font-style: $h4_font_style;
+	font-weight: $h4_font_weight;
+	font-size: $h4_font_size;
+	line-height: $h4_line_height;
+	color: $h4_color;
+}
+
+// h5 default styles
+@mixin h5(
+	$h5_font_family: $h5_font_family,
+	$h5_font_style: $h5_font_style,
+	$h5_font_weight: $h5_font_weight,
+	$h5_font_size: $h5_font_size,
+	$h5_line_height: $h5_line_height,
+	$h5_color: $h5_color
+) {
+	font-family: $h5_font_family;
+	font-style: $h5_font_style;
+	font-weight: $h5_font_weight;
+	font-size: $h5_font_size;
+	line-height: $h5_line_height;
+	color: $h5_color;
+}
+
+// h6 default styles
+@mixin h6(
+	$h6_font_family: $h6_font_family,
+	$h6_font_style: $h6_font_style,
+	$h6_font_weight: $h6_font_weight,
+	$h6_font_size: $h6_font_size,
+	$h6_line_height: $h6_line_height,
+	$h6_color: $h6_color
+) {
+	font-family: $h6_font_family;
+	font-style: $h6_font_style;
+	font-weight: $h6_font_weight;
+	font-size: $h6_font_size;
+	line-height: $h6_line_height;
+	color: $h6_color;
+}
+
+// p default styles
+@mixin p(
+	$p_font_family: $p_font_family,
+	$p_font_style: $p_font_style,
+	$p_font_weight: $p_font_weight,
+	$p_font_size: $p_font_size,
+	$p_line_height: $p_line_height,
+	$p_color: $p_color
+) {
+	font-family: $p_font_family;
+	font-style: $p_font_style;
+	font-weight: $p_font_weight;
+	font-size: $p_font_size;
+	line-height: $p_line_height;
+	color: $p_color;
+}
+
+// small p default styles
+@mixin p_sm(
+	$p_sm_font_family: $p_sm_font_family,
+	$p_sm_font_style: $p_sm_font_style,
+	$p_sm_font_weight: $p_sm_font_weight,
+	$p_sm_font_size: $p_sm_font_size,
+	$p_sm_line_height: $p_sm_line_height,
+	$p_sm_color: $p_sm_color
+) {
+	font-family: $p_sm_font_family;
+	font-style: $p_sm_font_style;
+	font-weight: $p_sm_font_weight;
+	font-size: $p_sm_font_size;
+	line-height: $p_sm_line_height;
+	color: $p_sm_color;
+}
+
+// copyright p default styles
+@mixin p_cp(
+	$p_cp_font_family: $p_cp_font_family,
+	$p_cp_font_style: $p_cp_font_style,
+	$p_cp_font_weight: $p_cp_font_weight,
+	$p_cp_font_size: $p_cp_font_size,
+	$p_cp_line_height: $p_cp_line_height,
+	$p_cp_color: $p_cp_color
+) {
+	font-family: $p_cp_font_family;
+	font-style: $p_cp_font_style;
+	font-weight: $p_cp_font_weight;
+	font-size: $p_cp_font_size;
+	line-height: $p_cp_line_height;
+	color: $p_cp_color;
+}
+
+// link default styles
+@mixin link(
+	$link_font_family: $link_font_family,
+	$link_font_style: $link_font_style,
+	$link_font_weight: $link_font_weight,
+	$link_font_size: $link_font_size,
+	$link_line_height: $link_line_height,
+	$link_color: $link_color,
+	$link_text_decoration: $link_text_decoration
+) {
+	font-family: $link_font_family;
+	font-style: $link_font_style;
+	font-weight: $link_font_weight;
+	font-size: $link_font_size;
+	line-height: $link_line_height;
+	color: $link_color;
+	text-decoration: $link_text_decoration;
+}
+
+// List Link default styles
+@mixin list_link(
+	$list_link_font_family: $list_link_font_family,
+	$list_link_font_style: $list_link_font_style,
+	$list_link_font_weight: $list_link_font_weight,
+	$list_link_font_size: $list_link_font_size,
+	$list_link_line_height: $list_link_line_height,
+	$list_link_color: $list_link_color,
+	$list_link_text_decoration: $list_link_text_decoration
+) {
+	font-family: $list_link_font_family;
+	font-style: $list_link_font_style;
+	font-weight: $list_link_font_weight;
+	font-size: $list_link_font_size;
+	line-height: $list_link_line_height;
+	color: $list_link_color;
+	text-decoration: $list_link_text_decoration;
+}
+
+// Header Link default styles
+@mixin header_link(
+	$header_link_font_family: $header_link_font_family,
+	$header_link_font_style: $header_link_font_style,
+	$header_link_font_weight: $header_link_font_weight,
+	$header_link_font_size: $header_link_font_size,
+	$header_link_line_height: $header_link_line_height,
+	$header_link_color: $header_link_color,
+	$header_link_text_decoration: $header_link_text_decoration
+) {
+	font-family: $header_link_font_family;
+	font-style: $header_link_font_style;
+	font-weight: $header_link_font_weight;
+	font-size: $header_link_font_size;
+	line-height: $header_link_line_height;
+	color: $header_link_color;
+	text-decoration: $header_link_text_decoration;
+}
+
+// bg image styles
+@mixin background($bg_image, $bg_size) {
+	background-image: $bg_image;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: $bg_size;
+}
+
+@mixin h2_underline($bg_underline) {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	height: 24px;
+	width: 100%;
+	@include background($bg_underline, 100% 100%);
+}
+
+@mixin h2_overline($bg_overline) {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: calc(100% - 160px);
+	height: 160px;
+	width: 320px;
+	@include background($bg_overline, 100% 100%);
+}
+
+@mixin contact_overline($bg_overline) {
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: calc(100% - 280px);
+	height: 82px;
+	width: 348px;
+	@include background($bg_overline, 100% 100%);
+}
+
+@mixin flash_circle($flash_circle) {
+	content: '';
+	position: absolute;
+	top: -15px;
+	left: 4px;
+	height: 142px;
+	width: 184px;
+	@include background($flash_circle, 100% 100%);
+}
+
+@mixin signin_overline($bg_overline) {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: -8px;
+	height: 51px;
+	width: 108px;
+	@include background($bg_overline, 100% 100%);
+
+	@include xs {
+		top: -9px;
+		left: -12px;
+		height: 44px;
+		width: 96px;
+	}
+}
+
+@mixin reviews_overline($reviews_overline) {
+	content: '';
+	position: absolute;
+	top: -11px;
+	left: -40px;
+	height: 70px;
+	width: 312px;
+	@include background($reviews_overline, 100% 100%);
+}
+
+@mixin round_overline($round_overline) {
+	content: '';
+	position: absolute;
+	top: -11px;
+	left: -40px;
+	height: 70px;
+	width: 312px;
+	@include background($round_overline, 100% 100%);
+}
+
+@mixin banner_love($bg_love) {
+	content: '';
+	position: absolute;
+	top: 64px;
+	left: calc(100% + 40px);
+	height: 72px;
+	width: 88px;
+
+	@include lg {
+		height: 48px;
+		width: 71px;
+		top: 38px;
+		left: calc(100% + 140px);
+	}
+
+	@include background($bg_love, contain);
+}
+
+@mixin h2_curline($bg_curline) {
+	content: '';
+	position: absolute;
+	bottom: -80px;
+	left: 160px;
+	height: 82px;
+	width: 211px;
+	@include background($bg_curline, contain);
+}
+
+@mixin view_love($bg_love) {
+	content: '';
+	position: absolute;
+	top: -90px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 65px;
+	width: 79px;
+	@include background($bg_love, 100% 100%);
+}
+
+@mixin view_circle($bg_circle) {
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: -80px;
+	height: 85px;
+	width: 312px;
+	@include background($bg_circle, 100% 100%);
+}
+
+// button default styles
+@mixin btn(
+	$btn_font_family: $btn_font_family,
+	$btn_font_style: $btn_font_style,
+	$btn_font_weight: $btn_font_weight,
+	$btn_font_size: $btn_font_size,
+	$btn_line_height: $btn_line_height,
+	$btn_color: $btn_color,
+	$background: $blue,
+	$padding
+) {
+	font-family: $btn_font_family;
+	font-style: $btn_font_style;
+	font-weight: $btn_font_weight;
+	font-size: $btn_font_size;
+	line-height: $btn_line_height;
+	color: $btn_color;
+	background: $background;
+	padding: $padding;
+	text-transform: capitalize;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+// Label default styles
+@mixin label(
+	$label_font_family: $label_font_family,
+	$label_font_style: $label_font_style,
+	$label_font_weight: $label_font_weight,
+	$label_font_size: $label_font_size,
+	$label_line_height: $label_line_height,
+	$label_color: $label_color
+) {
+	font-family: $label_font_family;
+	font-style: $label_font_style;
+	font-weight: $label_font_weight;
+	font-size: $label_font_size;
+	line-height: $label_line_height;
+	color: $label_color;
+}
+
+@mixin checkbox() {
+	width: 28px;
+	height: 28px;
+	border: 2px solid $grey-2;
+	border-radius: 6px;
+}
+
+
+@mixin overflowScroll {
+	&::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: $blue;
+		border-radius: 2rem;
+	}
+	&::-webkit-scrollbar-track {
+		background: url(/assets/images/shared/scroll-blue-line.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&::-webkit-scrollbar-track-piece {
+		width: 4px;
+	}
+}
+
+// Media queries mixins
+@mixin xlg {
+	@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+		@content;
+	}
+}
+
+@mixin xxl {
+	@media only screen and (min-width: 1601px) {
+		@content;
+	}
+}
+
+@mixin xl {
+	@media only screen and (max-width: 1400px) {
+		@content;
+	}
+}
+
+@mixin mlg {
+	@media only screen and (min-width: 991px) and (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin lg {
+	@media only screen and (max-width: 1200px) {
+		@content;
+	}
+}
+
+@mixin md {
+	@media only screen and (max-width: 991px) {
+		@content;
+	}
+}
+
+@mixin sm {
+	@media only screen and (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin xs {
+	@media only screen and (max-width: 576px) {
+		@content;
+	}
+}

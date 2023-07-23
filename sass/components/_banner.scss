@@ -1,0 +1,88 @@
+.banner {
+    height: 496px;
+
+    @include lg {
+        height: 370px;
+    }
+
+    margin-top: -64px;
+
+    @include xs {
+        margin-top: -80px;
+    }
+
+    margin-bottom: 60px;
+
+    & section {
+        height: 100%;
+
+        background-image: url('../images/desktop/banner-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @include xs {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 16px !important;
+        }
+
+
+        & .name {
+            color: #fff;
+            font-family: Inter;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 57.6px;
+            text-transform: capitalize;
+            text-align: center;
+
+            grid-column: 1 / 6;
+
+            @include lg {
+                grid-column: 1 / -1;
+            }
+
+            margin-top: 318px;
+
+            @include lg {
+                margin-top: 228px;
+            }
+
+
+            margin-bottom: 16px;
+
+            @include xs {
+                margin-top: 20%;
+                margin-bottom: 8px;
+                font-size: 28px;
+                line-height: 33.6px;
+            }
+        }
+
+        & .address {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 39.2px;
+            text-align: center;
+
+            @include xs {
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            text-transform: uppercase;
+            grid-column: 1 / 6;
+
+            @include lg {
+                grid-column: 1 / -1;
+            }
+        }
+    }
+}

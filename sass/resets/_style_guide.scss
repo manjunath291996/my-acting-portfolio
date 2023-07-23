@@ -1,0 +1,59 @@
+.sectionContainer {
+	h1 {
+		@include h1;
+	}
+
+	h2 {
+		@include h2;
+		position: relative;
+	}
+
+	h3 {
+		@include h3;
+	}
+
+	h4 {
+		@include h4;
+	}
+
+	h5 {
+		@include h5;
+	}
+
+	h6 {
+		@include h6;
+	}
+
+	p {
+		@include p;
+	}
+
+	.p_sm {
+		@include p_sm;
+	}
+
+	.copyright_text {
+		@include p_cp;
+	}
+
+	a {
+		@include link;
+	}
+
+	li a,
+	span a {
+		@include list_link;
+	}
+
+	header li a {
+		@include header_link;
+	}
+
+	label {
+		@include label;
+	}
+
+	input {
+		font-size: 18px;
+	}
+}

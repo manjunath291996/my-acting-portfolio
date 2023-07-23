@@ -1,0 +1,13 @@
+body {
+    & .container_fluid {
+
+        & .container {
+            padding: 0 48px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: min-content;
+            grid-gap: 0px;
+            grid-auto-flow: row;
+        }
+    }
+}

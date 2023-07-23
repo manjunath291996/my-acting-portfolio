@@ -1,0 +1,53 @@
+// Variables and mixins
+// @import './_variables_and_mixins/variables';
+@import "./_variables_and_mixins/mixins";
+
+// Layout
+@import './layout/layout';
+
+// Resets styles
+@import "./resets/reset";
+// @import './resets/style_guide';
+
+// Import components
+@import "./components/header";
+@import "./components/banner";
+@import "./components/videos";
+@import "./components/photos";
+@import "./components/about";
+@import "./components/work";
+@import "./components/manju_line";
+@import "./components/footer";
+
+html {
+    font-size: 16px;
+
+    @include xl {
+        font-size: 14px;
+    }
+
+    @include lg {}
+
+    @include md {
+        font-size: 13px;
+    }
+
+    @include sm {
+        font-size: 13px;
+    }
+
+    @include xs {
+        font-size: 12px;
+    }
+}
+
+body {
+    min-height: 100vh;
+    font-family: Inter, serif !important;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
