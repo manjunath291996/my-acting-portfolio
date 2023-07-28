@@ -133,7 +133,6 @@ table {
 .banner {
   height: 496px;
   margin-top: -64px;
-  margin-bottom: 60px;
 }
 @media only screen and (max-width: 1200px) {
   .banner {
@@ -595,6 +594,9 @@ table {
   margin-bottom: 60px;
   text-align: center;
   z-index: 10;
+}
+.work h3 strong {
+  font-weight: 700;
 }
 .work .stats {
   grid-area: 3/1/4/-1;
