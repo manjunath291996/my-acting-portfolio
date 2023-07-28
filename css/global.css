@@ -451,6 +451,7 @@ table {
 }
 
 .about {
+  display: none !important;
   margin-bottom: 60px;
 }
 .about .container {
